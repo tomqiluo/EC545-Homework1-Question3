@@ -45,8 +45,8 @@ void state_machine() {
     printf("state_0 = %d\n", state_0);
     next_state_1 = and_comparetor(in0, state_0);
     next_state_0 = not_comparetor(in0);
-    printf("next_state_1 = %d\n", next_state_1);
-    printf("next_state_0 = %d\n", next_state_0);
+    // printf("next_state_1 = %d\n", next_state_1);
+    // printf("next_state_0 = %d\n", next_state_0);
     state_1 = next_state_1;
     state_0 = next_state_0;
 };
