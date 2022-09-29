@@ -1,9 +1,10 @@
 # EC545-Homework1-Question3
 
-Go the the terminal that contain the main.cpp file, open an linux terminal,
-Run: 
+## Available Scripts
 
-g++ -std=c++17 -o output main.cpp
+In the project directory, you can run:
 
-./output
+### `python test.py` 
+
+to generate a `d.cnf` file.
 
